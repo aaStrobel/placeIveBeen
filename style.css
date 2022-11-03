@@ -1,0 +1,85 @@
+body {
+    background-image: url('blueberryFaygo.jpg');
+    background-size: contain;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  li {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  #want {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #cceeea;
+    margin: 0;
+    list-style-position: inside;
+    list-style-image: url('airplane.png');
+  }
+  
+  #been {
+    list-style-type: square;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #cceeea;
+    margin: 0;
+    list-style-position: inside;
+  }
+
+  #extra_space {
+    height: 800px;
+    opacity: 0;
+  }
+  
+  li:hover {
+   background-color: #a4e0dd;
+  }
+  
+  @media (max-width:750px) {
+     li {
+       width: 100%;
+     }
+     ul {
+       padding: 5%;
+       background-color: #ad3723;
+       color: white;
+     }
+     li:hover {
+       background-color: #dd4829;
+     }
+  }
+  
+  h1 {
+    text-align: center;
+    text-shadow: 1px 0px;
+    background-color: white;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+  }
+  
+  h2 {
+    background-color: white;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  img {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+  
+  
+  
